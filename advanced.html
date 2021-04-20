@@ -15,8 +15,26 @@
             Advanced Search
         </a>
         <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
+            Find pages with...
+            <div>
+                <label>all these words:</label>
+                <input type="text" name="as_q" class="box">
+            </div>
+            <div>
+                <label>this exact word or phrase:</label>
+                <input type="text" name="as_epq" class="box">
+            </div>
+            <div>
+                <label>any of these words:</label>
+                <input type="text" name="as_oq" class="box">
+            </div>
+            <div>
+                <label>none of these words:</label>
+                <input type="text" name="as_eq" class="box">
+            </div>
+            <div>
+                <input type="submit" value="Google Search">
+            </div>
         </form>
     </body>
 </html>
